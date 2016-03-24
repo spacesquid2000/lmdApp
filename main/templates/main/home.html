@@ -1,0 +1,19 @@
+{% load staticfiles %}
+
+<html>
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href='//fonts.googleapis.com/css?family=Vollkorn&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <title>Merit Ledgers</title>
+  </head>
+  <body>
+    <h1>{{ message }}</h1>
+    <h2>This is a site for teaching and exploring a fun part of Chinese history, the Ledgers of Merit and Demerit.</h2>
+    <p>Here I have a paragraph about what the ledgers are, and what we'll do with them</p>
+    <h2>A Literati Gathering</h2>
+    {% load static %}
+    <img src="{% static "main/Literati1.jpg" %}" alt="My image"/>
+  </body>
+</html>
